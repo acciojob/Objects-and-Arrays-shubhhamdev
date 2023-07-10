@@ -6,7 +6,7 @@ const person = {
 };
 
 const team = players;
-const team1 = players.slice();
+const team1 = { ...players};
 const cap1 = { ...person };
 
 console.log(team);  // Output: ["John", "Bob", "Alice", "Poppy"]
